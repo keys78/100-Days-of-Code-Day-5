@@ -1,0 +1,428 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: cheltenham;
+    
+    
+}
+
+.top-bar h1{
+    position: relative;
+    top:23px;
+    font-weight:lighter;
+    padding:10px;
+    background-color: rgb(31, 2, 2);
+    color:white;
+}
+
+
+.heading input[type="text"], [type="submit"]{
+    position: relative;
+    left:300px;
+}
+
+
+.heading input[type="text"]{
+    width:17%;
+    padding:7px;
+    background-color: rgb(187, 187, 187);
+    border:none;
+}
+
+
+.heading input[type="submit"]{
+    width:150px;
+    border-radius: 30px;
+    background-color: rgb(83, 14, 14);
+    font-weight:bold;
+    color:white;
+    padding:7px;
+    outline: none;
+    border:none;
+
+}
+
+.heading input[type="submit"]:hover{
+    background-color: rgb(85, 83, 83);
+}
+
+
+::placeholder{
+    color:rgb(114, 111, 111);
+}
+
+
+
+
+.top-bar ul{
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    list-style-type: none;
+    background-color:rgb(88, 88, 88);
+    border:rgb(78, 77, 77);
+}
+
+li{
+    float: left;
+}
+a{
+    display:block;
+    color:white;
+    text-align: center;
+    text-decoration:none;
+    padding:20px 16px;
+
+}
+li:hover{
+    background-color:black;
+
+}
+
+.showcase{
+    border:1px solid rgb(2, 2, 2);
+    box-sizing: border-box;
+    height:600px;
+    min-width: 100%;
+    margin-bottom:30px;
+    padding:0px;
+    background-image:url('../images/floracover.jpg');
+    background-position:100%;
+    background-size:cover;
+    
+}
+.text-area{
+    width:60%;
+    color:#fff;
+    position: relative;
+    left:110spx;
+    top:100px;
+    text-align:center;
+    
+}
+
+
+
+
+.form{
+    margin-right:150px;
+    width: 30%;
+    padding:0px;
+    margin-bottom:100px;
+    color:white;
+    position: relative;
+    left: 1000px;
+    bottom:150px;
+
+    transform: translate();
+}
+
+.text-area h2{
+    color:rgb(248, 207, 214);
+    word-spacing: 10px;
+    font-size:25px;
+}
+
+.text-area p{
+    font-size:20px;
+    word-spacing: 5px;
+    
+}
+
+.form input[type="text"], input[type="number"], input[type="email"]{
+    padding: 10px;
+    width:80%;
+    border-radius:10px;
+    outline: none;
+    background-color: rgb(199, 199, 199);
+    color:rgb(34, 23, 23);
+    border:none;
+}
+
+
+.form select[id=""]{
+    width:85%;
+    padding:5px;
+    background-color: rgb(228, 222, 222);
+}
+
+.form input[type="submit"]{
+    margin-top:20px;
+    margin-right:0px;
+    width:30%;
+    padding:7px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(99, 49, 68);
+    color:white;
+    border-radius: 30%;
+    border:none;
+}
+
+.form input[type="submit"]:hover{
+    background-color: rgb(170, 15, 75);
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+
+.number-one{
+    box-sizing: border-box;
+    width:33%;
+    float:left;
+    text-align: center;
+    font-family:script MT ;
+}
+
+
+
+.number-two{
+    box-sizing: border-box;
+    width:33%;
+    float:right;
+    text-align: center;
+    font-family:script MT ;
+
+}
+
+.number-three{
+    box-sizing: border-box;
+    width:33%;
+    float:right;
+    text-align: center;
+    font-family:script MT ;
+
+}
+
+.low-case{
+    margin-top:300px;
+    background-color: rgb(211, 210, 210);
+    width:100%;
+    height:400px;
+}
+
+.pic-1 img{
+    width:27%;
+    position: relative;
+    top:70px;
+    left:117px;
+
+}
+
+
+.pic-2 img{
+    width:27%;
+    position: relative;
+    left:547px;
+    bottom:207px;
+
+}
+
+
+.pic-3 img{
+    width:27%;
+    position: relative;
+    left:977px;
+    bottom: 484px;
+
+}
+
+
+
+
+
+
+.footer{
+    
+    border:1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+
+.footer-content{
+    border-right:1px solid rgb(255, 255, 255);
+    width:25%;
+    position: relative;
+    top:140px;
+    text-align: center;
+}
+
+
+.footer-content-2{
+    border-right:1px solid rgb(255, 255, 255);
+    width:200px;
+    position: relative;
+    left:27%;
+    top:56px;
+    text-align: center;
+}
+
+.footer-content-2 h4{
+    font-family: script mt;
+}
+
+
+
+
+.footer-content-3{
+    border-right:1px solid rgb(255, 246, 246);
+    width:32%;
+    position: relative;
+    left: 44%;
+    bottom: 30px;
+}
+
+.footer-content-3{
+    font-family: script mt;
+    margin-left:30px;
+}
+
+
+
+.footer-content-3 input[type="text"]{
+    background-color: rgb(235, 229, 229);
+    margin-left: 70px;
+}
+
+
+
+
+.footer-content-3 input[type="submit"]{
+    background-color: tomato;
+    color:white;
+    outline: none;
+    border: none;
+    margin-right: 8000px;
+}
+
+.footer-content-3 input[type="submit"]:hover{
+    background-color: rgb(36, 29, 102);
+}
+
+
+
+.footer-content-4{
+    width:250px;
+    position: relative;
+    left: 80%;
+    bottom:120px;
+    text-align: left;
+}
+
+.footer-content-4 p{
+    letter-spacing: 7px;;
+}
+
+
+
+/**************** FOOTER PRIVACY SECTION ****************/
+
+.footer-privacy{
+    
+    border:1px solid  rgb(7, 11, 39);
+    box-sizing: border-box;
+    background-color: rgb(7, 11, 39);
+    color:rgb(155, 155, 155);
+}
+
+.footer-privacy a{
+    font-size:small;
+    display:inline;
+    text-align: center;
+    margin-left: 300px;
+    word-spacing: 5px;;
+}
+
+.footer-privacy p{
+    text-align: center;
+}
+
+
+
+
+/****************** SVG ICONS SECTION ******************/
+FACEBOOK
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+  TWITTER
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+  YOUTUBE
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+  
+  INSTAGRAM
+
+  
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+
+  .socials .svg-icon{
+    
+    width: 2em;
+    height: 2em;
+  }
